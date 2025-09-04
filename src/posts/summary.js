@@ -73,7 +73,6 @@ module.exports = function (Posts) {
 		options.stripTags = options.hasOwnProperty('stripTags') ? options.stripTags : false;
 		options.parse = options.hasOwnProperty('parse') ? options.parse : true;
 		options.escape = options.hasOwnProperty('escape') ? options.escape : false;
-		console.log('Josh Dong');
 		options.extraFields = options.hasOwnProperty('extraFields') ? options.extraFields : [];
 	}
 
